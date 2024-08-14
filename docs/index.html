@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailMouse - Simple Cloud-Based Mailing Lists</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+            --secondary-color: #FF6B6B;
+            --text-color: #333333;
+            --light-bg: #F8F9FA;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .navbar {
+            background-color: #FFFFFF;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand, .nav-link {
+            color: var(--primary-color) !important;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .nav-link:hover {
+            color: var(--secondary-color) !important;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #4A90E2, #8E54E9);
+            color: white;
+            padding: 150px 0;
+        }
+
+        .btn-custom {
+            background: linear-gradient(135deg, var(--secondary-color), #FF8E8E);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background: linear-gradient(135deg, #FF8E8E, var(--secondary-color));
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .features, .pricing {
+            background-color: var(--light-bg);
+            padding: 100px 0;
+        }
+
+        .feature-card, .price-card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            background: linear-gradient(135deg, #FFFFFF, #F0F0F0);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-right: 1rem;
+        }
+
+        .price-card-header {
+            background: linear-gradient(135deg, var(--secondary-color), #FF8E8E);
+            color: white;
+        }
+
+        .content-section {
+            padding: 100px 0;
+        }
+
+        footer {
+            background-color: var(--text-color);
+            color: white;
+            padding: 30px 0;
+        }
+
+        .text-accent {
+            color: var(--secondary-color);
+        }
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                    135deg,
+                    rgba(255, 107, 107, 0.7) 0%,
+                    rgba(255, 107, 107, 0) 100%
+            );
+            border-radius: 0.25rem; /* To match the rounded class of the image */
+        }
+    </style>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-mouse me-2 text-accent"></i>MailMouse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#use-cases">Use Cases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-4">Simple Cloud-Based Mailing Lists</h1>
+                <p class="lead mb-5">MailMouse offers an effortless way to set up and manage mailing lists. Create an
+                    email address, define your member list, and let MailMouse handle the rest.</p>
+                <a href="#" class="btn btn-custom btn-lg"><i class="fas fa-rocket me-2"></i>Get Started</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="image-container position-relative">
+                    <img src="./hero.jpg" alt="MailMouse Dashboard" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Features Section -->
+<section id="features" class="features content-section">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body d-flex align-items-start">
+                        <i class="fas fa-cloud feature-icon"></i>
+                        <div>
+                            <h5 class="card-title">Cloud-Based</h5>
+                            <p class="card-text">MailMouse operates entirely in the cloud, eliminating the need for
+                                complex setups or specific email providers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body d-flex align-items-start">
+                        <i class="fas fa-lock feature-icon"></i>
+                        <div>
+                            <h5 class="card-title">Privacy-Focused</h5>
+                            <p class="card-text">Hosted in the EU, MailMouse ensures enhanced data protection for your
+                                mailing lists and member information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body d-flex align-items-start">
+                        <i class="fas fa-envelope feature-icon"></i>
+                        <div>
+                            <h5 class="card-title">Provider-Independent</h5>
+                            <p class="card-text">MailMouse works with any email service, giving you the flexibility to
+                                use your preferred email provider.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Use Cases Section -->
+<section id="use-cases" class="content-section bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Use Cases</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <h3><i class="fas fa-building me-3 text-accent"></i>For Small Businesses</h3>
+                <p>Small businesses can use MailMouse to streamline their communication with clients, partners, or team
+                    members. Create dedicated mailing lists for different departments or projects, ensuring efficient
+                    information sharing and collaboration.</p>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <h3><i class="fas fa-users me-3 text-accent"></i>For Communities</h3>
+                <p>Community organizers can leverage MailMouse to keep members informed about events, updates, and
+                    important announcements. Easily manage subscriptions and ensure that everyone stays connected and
+                    engaged.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6 mb-4">
+                <h3><i class="fas fa-graduation-cap me-3 text-accent"></i>For Schools</h3>
+                <p>Educational institutions can utilize MailMouse to facilitate communication between teachers,
+                    students, and parents. Create separate lists for different classes, departments, or school-wide
+                    announcements to keep everyone informed.</p>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <h3><i class="fas fa-flask me-3 text-accent"></i>For Research Groups</h3>
+                <p>Research teams can use MailMouse to share findings, coordinate meetings, and collaborate on projects.
+                    With easy list management, ensure that all team members are up-to-date on the latest developments in
+                    your field.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section id="how-it-works" class="content-section">
+    <div class="container">
+        <h2 class="text-center mb-5">How It Works</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="d-flex align-items-start">
+                    <i class="fas fa-user-plus fa-3x me-3 text-accent"></i>
+                    <div>
+                        <h4>1. Sign Up</h4>
+                        <p>Create an account with MailMouse and choose the subscription plan that best fits your needs.
+                            Our simple registration process gets you started in no time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="d-flex align-items-start">
+                    <i class="fas fa-list fa-3x me-3 text-accent"></i>
+                    <div>
+                        <h4>2. Create Your List</h4>
+                        <p>Set up your mailing list by defining a unique email address and adding your members' email
+                            addresses. Our intuitive interface makes list management a breeze.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="d-flex align-items-start">
+                    <i class="fas fa-paper-plane fa-3x me-3 text-accent"></i>
+                    <div>
+                        <h4>3. Start Communicating</h4>
+                        <p>Send emails to your newly created list address, and MailMouse will automatically distribute
+                            them to all members. It's that simple!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Table -->
+<section id="pricing" class="pricing content-section">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Pricing</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card price-card">
+                    <div class="card-header price-card-header">
+                        <h3 class="text-center">Basic</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">$9.99<small class="text-muted">/month</small></h4>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="fas fa-check me-2 text-accent"></i>Up to 5 mailing lists</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>500 members per list</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>Email support</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom btn-block">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card price-card">
+                    <div class="card-header price-card-header">
+                        <h3 class="text-center">Pro</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">$24.99<small class="text-muted">/month</small></h4>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="fas fa-check me-2 text-accent"></i>Up to 20 mailing lists</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>2000 members per list</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>Priority support</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>Basic analytics</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom btn-block">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card price-card">
+                    <div class="card-header price-card-header">
+                        <h3 class="text-center">Enterprise</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">$49.99<small class="text-muted">/month</small></h4>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="fas fa-check me-2 text-accent"></i>Unlimited mailing lists</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>Unlimited members per list</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>24/7 premium support</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>Advanced analytics</li>
+                            <li><i class="fas fa-check me-2 text-accent"></i>Custom domain support</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom btn-block">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call-to-Action Section -->
+<section class="cta-section bg-light py-5">
+    <div class="container text-center">
+        <h2>Ready to Simplify Your Mailing Lists?</h2>
+        <p class="lead mb-4">Start today and experience the ease of MailMouse.</p>
+        <a href="#" class="btn btn-custom btn-lg">Try MailMouse Free</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; 2024 MailMouse. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="text-light me-3">Terms of Service</a>
+                <a href="#" class="text-light me-3">Privacy Policy</a>
+                <a href="#" class="text-light">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
