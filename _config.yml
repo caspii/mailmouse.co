@@ -1,0 +1,38 @@
+# Site settings
+title: MailMouse
+description: Simple Cloud-Based Mailing Lists
+url: "https://mailmouse.co"
+baseurl: ""
+
+# GitHub Pages settings
+source: .
+destination: ./_site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .DS_Store
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO tag settings
+author: MailMouse Team
+twitter:
+  username: mailmouse
+  card: summary_large_image
+
+# Social media
+social:
+  name: MailMouse
+  links:
+    - https://twitter.com/mailmouse
