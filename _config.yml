@@ -14,6 +14,11 @@ exclude:
   - node_modules
   - vendor
   - .DS_Store
+  - docs/
+
+# Disable theme defaults that might expect docs directory
+theme: null
+remote_theme: null
 
 # Jekyll settings
 markdown: kramdown
