@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<!-- Hero Section for Use Case -->
+<header class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-4">{{ page.hero_title }}</h1>
+                <p class="h5 mb-3 text-white-50">{{ page.hero_subtitle }}</p>
+                <p class="lead mb-5">{{ page.hero_description }}</p>
+                <a href="/signup" class="btn btn-custom btn-lg"><i class="fas fa-bell me-2"></i>Get Early Access</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="image-container position-relative">
+                    <img src="{{ page.hero_image | default: '/hero.png' }}" alt="{{ page.hero_title }}" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="content-section">
+    <div class="container">
+        {{ content }}
+    </div>
+</div>
+
+<!-- Call-to-Action Section -->
+<section class="cta-section bg-light py-5">
+    <div class="container text-center">
+        <h2>Ready to Transform Your Group Communication?</h2>
+        <p class="lead mb-4">Join the waitlist for MailMouse and be among the first to experience modern mailing lists.</p>
+        <a href="/signup" class="btn btn-custom btn-lg">Get Early Access</a>
+    </div>
+</section>
