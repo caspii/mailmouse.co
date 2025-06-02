@@ -9,13 +9,16 @@ title: MailMouse - Simple Cloud-Based Mailing Lists
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <h1 class="display-4 mb-4">Simple Cloud-Based Mailing Lists</h1>
-                <p class="h5 mb-3 text-white-50">A modern alternative to Google Groups, built for businesses, schools, and communities</p>
+                <p class="h5 mb-4 text-white-50">A modern alternative to Google Groups, built for businesses, schools, and communities</p>
                 <p class="lead mb-5">MailMouse offers an effortless way to set up and manage mailing lists. Create an
                     email address, define your member list, and let MailMouse handle the rest. No ads, no complexity, just reliable group email communication.</p>
-                <a href="/signup" class="btn btn-custom btn-lg"><i class="fas fa-bell me-2"></i>Get Early Access</a>
+                <div class="d-flex flex-column flex-sm-row gap-3">
+                    <a href="/signup" class="btn btn-custom btn-lg"><i class="fas fa-bell me-2"></i>Get Early Access</a>
+                    <a href="#features" class="btn btn-outline-light btn-lg"><i class="fas fa-arrow-down me-2"></i>Learn More</a>
+                </div>
             </div>
             <div class="col-lg-6">
-                <div class="image-container position-relative">
+                <div class="image-container position-relative mt-5 mt-lg-0">
                     <img src="hero.png" alt="MailMouse Dashboard" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
@@ -26,39 +29,36 @@ title: MailMouse - Simple Cloud-Based Mailing Lists
 <!-- Features Section -->
 <section id="features" class="features content-section">
     <div class="container">
-        <h2 class="text-center mb-5">Our Features</h2>
+        <div class="text-center mb-5">
+            <h2 class="display-5 mb-3">Why Choose MailMouse?</h2>
+            <p class="lead text-muted">Modern mailing lists built for today's teams and communities</p>
+        </div>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card feature-card h-100">
-                    <div class="card-body d-flex align-items-start">
-                        <i class="fas fa-cloud feature-icon"></i>
-                        <div>
-                            <h5 class="card-title">Cloud-Based</h5>
-                            <p class="card-text">MailMouse operates entirely in the cloud, eliminating the need for
-                                complex setups or specific email providers.</p>
-                        </div>
+                    <div class="card-body text-center">
+                        <i class="fas fa-cloud feature-icon d-block mb-3"></i>
+                        <h5 class="card-title mb-3">Cloud-Based</h5>
+                        <p class="card-text text-muted">MailMouse operates entirely in the cloud, eliminating the need for
+                            complex setups or specific email providers.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card feature-card h-100">
-                    <div class="card-body d-flex align-items-start">
-                        <i class="fas fa-lock feature-icon"></i>
-                        <div>
-                            <h5 class="card-title">Privacy-Focused</h5>
-                            <p class="card-text">Hosted in the EU with GDPR compliance. No ads, no email scanning, no data mining. Your communications stay private.</p>
-                        </div>
+                    <div class="card-body text-center">
+                        <i class="fas fa-shield-alt feature-icon d-block mb-3"></i>
+                        <h5 class="card-title mb-3">Privacy-Focused</h5>
+                        <p class="card-text text-muted">Hosted in the EU with GDPR compliance. No ads, no email scanning, no data mining. Your communications stay private.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card feature-card h-100">
-                    <div class="card-body d-flex align-items-start">
-                        <i class="fas fa-envelope feature-icon"></i>
-                        <div>
-                            <h5 class="card-title">Works with Any Email</h5>
-                            <p class="card-text">Members don't need special accounts. Works with Gmail, Outlook, or any email provider. Just add any email address to your list.</p>
-                        </div>
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope feature-icon d-block mb-3"></i>
+                        <h5 class="card-title mb-3">Works with Any Email</h5>
+                        <p class="card-text text-muted">Members don't need special accounts. Works with Gmail, Outlook, or any email provider. Just add any email address to your list.</p>
                     </div>
                 </div>
             </div>
@@ -69,41 +69,72 @@ title: MailMouse - Simple Cloud-Based Mailing Lists
 <!-- Use Cases Section -->
 <section id="use-cases" class="content-section bg-light">
     <div class="container">
-        <h2 class="text-center mb-5">Use Cases</h2>
+        <div class="text-center mb-5">
+            <h2 class="display-5 mb-3">Perfect for Every Team</h2>
+            <p class="lead text-muted">From startups to schools, MailMouse adapts to your communication needs</p>
+        </div>
         <div class="row">
             <div class="col-lg-6 mb-4">
-                <h3><i class="fas fa-building me-3 text-accent"></i>Company Teams</h3>
-                <p>Create lists like <code>all@startup.com</code> or <code>dev-team@startup.com</code> for seamless internal communication. Perfect for startups and small businesses that need reliable team coordination without complex IT setup.</p>
-                <a href="/company-teams" class="text-accent">Learn more →</a>
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="fas fa-building text-secondary mb-3" style="font-size: 2rem;"></i>
+                        <h3 class="card-title">Company Teams</h3>
+                        <p class="card-text text-muted">Create lists like <code>all@startup.com</code> or <code>dev-team@startup.com</code> for seamless internal communication. Perfect for startups and small businesses that need reliable team coordination without complex IT setup.</p>
+                        <a href="/company-teams" class="btn btn-outline-secondary">Learn more <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 mb-4">
-                <h3><i class="fas fa-users me-3 text-accent"></i>Community Groups</h3>
-                <p>Keep community members connected without exposing everyone's email in long CC lists. Perfect for neighborhood associations, hobby clubs, and volunteer organizations.</p>
-                <a href="/community-groups" class="text-accent">Learn more →</a>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 mb-4">
-                <h3><i class="fas fa-graduation-cap me-3 text-accent"></i>Schools & Education</h3>
-                <p>Create secure, private channels for classroom communication. Teachers can send updates to parents, and schools can coordinate with confidence in data protection.</p>
-                <a href="/schools-education" class="text-accent">Learn more →</a>
-            </div>
-            <div class="col-lg-6 mb-4">
-                <h3><i class="fas fa-flask me-3 text-accent"></i>Research Teams</h3>
-                <p>Academic and professional teams across universities can collaborate via persistent group email. Share findings, coordinate meetings, and maintain project continuity.</p>
-                <a href="/research-teams" class="text-accent">Learn more →</a>
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="fas fa-users text-secondary mb-3" style="font-size: 2rem;"></i>
+                        <h3 class="card-title">Community Groups</h3>
+                        <p class="card-text text-muted">Keep community members connected without exposing everyone's email in long CC lists. Perfect for neighborhood associations, hobby clubs, and volunteer organizations.</p>
+                        <a href="/community-groups" class="btn btn-outline-secondary">Learn more <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-lg-6 mb-4">
-                <h3><i class="fas fa-heart me-3 text-accent"></i>Non-Profits</h3>
-                <p>Coordinate volunteers worldwide with an affordable, easy-to-manage solution. Works with any email provider, perfect for organizations with tight budgets.</p>
-                <a href="/non-profits" class="text-accent">Learn more →</a>
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="fas fa-graduation-cap text-secondary mb-3" style="font-size: 2rem;"></i>
+                        <h3 class="card-title">Schools & Education</h3>
+                        <p class="card-text text-muted">Create secure, private channels for classroom communication. Teachers can send updates to parents, and schools can coordinate with confidence in data protection.</p>
+                        <a href="/schools-education" class="btn btn-outline-secondary">Learn more <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 mb-4">
-                <div class="text-center">
-                    <h4 class="text-accent">And Many More!</h4>
-                    <p class="text-muted">Any group that needs reliable email communication can benefit from MailMouse's simple, privacy-focused approach.</p>
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="fas fa-flask text-secondary mb-3" style="font-size: 2rem;"></i>
+                        <h3 class="card-title">Research Teams</h3>
+                        <p class="card-text text-muted">Academic and professional teams across universities can collaborate via persistent group email. Share findings, coordinate meetings, and maintain project continuity.</p>
+                        <a href="/research-teams" class="btn btn-outline-secondary">Learn more <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="fas fa-heart text-secondary mb-3" style="font-size: 2rem;"></i>
+                        <h3 class="card-title">Non-Profits</h3>
+                        <p class="card-text text-muted">Coordinate volunteers worldwide with an affordable, easy-to-manage solution. Works with any email provider, perfect for organizations with tight budgets.</p>
+                        <a href="/non-profits" class="btn btn-outline-secondary">Learn more <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center d-flex flex-column justify-content-center">
+                        <i class="fas fa-plus-circle text-secondary mb-3" style="font-size: 2rem;"></i>
+                        <h4 class="card-title text-secondary">And Many More!</h4>
+                        <p class="card-text text-muted">Any group that needs reliable email communication can benefit from MailMouse's simple, privacy-focused approach.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -114,35 +145,38 @@ title: MailMouse - Simple Cloud-Based Mailing Lists
 <!-- How It Works Section -->
 <section id="how-it-works" class="content-section">
     <div class="container">
-        <h2 class="text-center mb-5">How It Works</h2>
+        <div class="text-center mb-5">
+            <h2 class="display-5 mb-3">Getting Started is Simple</h2>
+            <p class="lead text-muted">Three simple steps to transform your group communication</p>
+        </div>
         <div class="row">
             <div class="col-lg-4 mb-4">
-                <div class="d-flex align-items-start">
-                    <i class="fas fa-user-plus fa-3x me-3 text-accent"></i>
-                    <div>
-                        <h4>1. Simple Sign Up</h4>
-                        <p>Create your account in minutes. No complex setup, no IT department needed. Just a simple registration to get your mailing lists up and running.</p>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-user-plus text-secondary" style="font-size: 3rem;"></i>
                     </div>
+                    <h4 class="mb-3">1. Simple Sign Up</h4>
+                    <p class="text-muted">Create your account in minutes. No complex setup, no IT department needed. Just a simple registration to get your mailing lists up and running.</p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="d-flex align-items-start">
-                    <i class="fas fa-list fa-3x me-3 text-accent"></i>
-                    <div>
-                        <h4>2. Create Your List</h4>
-                        <p>Set up your mailing list by defining a unique email address and adding your members' email
-                            addresses. Our intuitive interface makes list management a breeze.</p>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-list text-secondary" style="font-size: 3rem;"></i>
                     </div>
+                    <h4 class="mb-3">2. Create Your List</h4>
+                    <p class="text-muted">Set up your mailing list by defining a unique email address and adding your members' email
+                        addresses. Our intuitive interface makes list management a breeze.</p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="d-flex align-items-start">
-                    <i class="fas fa-paper-plane fa-3x me-3 text-accent"></i>
-                    <div>
-                        <h4>3. Start Communicating</h4>
-                        <p>Send emails to your newly created list address, and MailMouse will automatically distribute
-                            them to all members. It's that simple!</p>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-paper-plane text-secondary" style="font-size: 3rem;"></i>
                     </div>
+                    <h4 class="mb-3">3. Start Communicating</h4>
+                    <p class="text-muted">Send emails to your newly created list address, and MailMouse will automatically distribute
+                        them to all members. It's that simple!</p>
                 </div>
             </div>
         </div>
@@ -154,35 +188,29 @@ title: MailMouse - Simple Cloud-Based Mailing Lists
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-                <h2 class="mb-4">MailMouse is Coming Soon</h2>
-                <p class="lead mb-4">We're building the modern alternative to Google Groups. Join our early access list to be the first to try MailMouse when we launch.</p>
+                <h2 class="display-5 mb-4">MailMouse is Coming Soon</h2>
+                <p class="lead mb-5">We're building the modern alternative to Google Groups. Join our early access list to be the first to try MailMouse when we launch.</p>
                 
                 <div class="row mb-5">
-                    <div class="col-md-4 mb-3">
-                        <div class="card feature-card h-100 border-0">
-                            <div class="card-body text-center">
-                                <i class="fas fa-lightning-bolt fa-2x text-accent mb-3"></i>
-                                <h5>Simple Setup</h5>
-                                <p class="card-text">Create your mailing list in minutes, not hours</p>
-                            </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="fas fa-lightning-bolt text-secondary mb-3" style="font-size: 2rem;"></i>
+                            <h5>Simple Setup</h5>
+                            <p class="text-muted">Create your mailing list in minutes, not hours</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card feature-card h-100 border-0">
-                            <div class="card-body text-center">
-                                <i class="fas fa-shield-alt fa-2x text-accent mb-3"></i>
-                                <h5>Privacy First</h5>
-                                <p class="card-text">EU-hosted, GDPR compliant, no ads or scanning</p>
-                            </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="fas fa-shield-alt text-secondary mb-3" style="font-size: 2rem;"></i>
+                            <h5>Privacy First</h5>
+                            <p class="text-muted">EU-hosted, GDPR compliant, no ads or scanning</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card feature-card h-100 border-0">
-                            <div class="card-body text-center">
-                                <i class="fas fa-handshake fa-2x text-accent mb-3"></i>
-                                <h5>Works Everywhere</h5>
-                                <p class="card-text">Compatible with any email provider</p>
-                            </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="fas fa-handshake text-secondary mb-3" style="font-size: 2rem;"></i>
+                            <h5>Works Everywhere</h5>
+                            <p class="text-muted">Compatible with any email provider</p>
                         </div>
                     </div>
                 </div>

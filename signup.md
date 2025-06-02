@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Get Early Access - MailMouse
+title:
 ---
 
 <div class="row justify-content-center">
