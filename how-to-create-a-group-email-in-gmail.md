@@ -3,6 +3,7 @@ layout: guide
 title: "How to Create a Group Email in Gmail (2 Easy Ways)"
 description: "Create a group email in Gmail in under two minutes: set up a contact label or build a Google Group. Step-by-step instructions, sending limits, and a simpler option."
 updated: July 2026
+image: /assets/images/group-email-gmail.jpg
 cta_title: "Outgrown Gmail's built-in groups?"
 cta_text: "MailMouse gives your group a real mailing list address that works with any email provider — no labels to maintain, no Google accounts required."
 ---
@@ -10,6 +11,10 @@ cta_text: "MailMouse gives your group a real mailing list address that works wit
 Gmail has two built-in ways to email a group of people: **contact labels** (fastest, best for lists only you use) and **Google Groups** (a shared address anyone can send to). This guide walks through both, step by step, and explains the limits you'll run into as your group grows.
 
 **Quick answer:** open [Google Contacts](https://contacts.google.com), select your people, apply a label, then type the label's name into the "To" field of a new Gmail message.
+
+<figure class="my-4 text-center">
+  <img src="/assets/images/group-email-gmail.jpg" alt="Illustration of a group email in Gmail: one labeled envelope fanning out to three recipients" class="img-fluid rounded" width="1584" height="672" loading="lazy">
+</figure>
 
 ## Method 1: Create an Email Group with a Contact Label
 

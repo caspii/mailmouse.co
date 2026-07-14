@@ -3,6 +3,7 @@ layout: guide
 title: "How to Create an Email Group in Outlook (Every Version)"
 description: "Step-by-step: create an email group (contact list) in new Outlook, classic Outlook, and Outlook on the web — plus company-wide distribution lists in Microsoft 365."
 updated: July 2026
+image: /assets/images/email-group-outlook.jpg
 cta_title: "Need a group address your whole team can use?"
 cta_text: "MailMouse gives you a real mailing list — like all@yourcompany.com — that anyone can email, with members on any provider. No Exchange admin required."
 ---
@@ -10,6 +11,10 @@ cta_text: "MailMouse gives you a real mailing list — like all@yourcompany.com 
 Outlook calls an email group a **contact list** (in older versions, a *contact group* or *distribution list*). Whatever the name, the idea is the same: send one message, reach a whole set of people. This guide covers every current version of Outlook, plus company-wide **distribution lists** in Microsoft 365.
 
 **Quick answer:** open the People view in Outlook, choose *New contact list*, add your members, save — then type the list's name into the "To" field of any message.
+
+<figure class="my-4 text-center">
+  <img src="/assets/images/email-group-outlook.jpg" alt="Illustration of an Outlook email group: adding a person to an address book contact list" class="img-fluid rounded" width="1376" height="768" loading="lazy">
+</figure>
 
 First, a 20-second terminology check, because Microsoft uses three similar names:
 

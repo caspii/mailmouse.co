@@ -3,6 +3,7 @@ layout: guide
 title: "What Is a Listserv? Meaning, History & Alternatives"
 description: "Listserv meaning, explained: what a listserv is, how it works, where the name comes from (no, there's no final 'e'), and the modern alternatives for group email."
 updated: July 2026
+image: /assets/images/how-a-listserv-works.jpg
 cta_title: "Want a listserv without running one?"
 cta_text: "MailMouse is a modern mailing list service: one address for your whole group, hosted in the EU, working with any email provider."
 ---
@@ -10,6 +11,10 @@ cta_text: "MailMouse is a modern mailing list service: one address for your whol
 A **listserv** is an electronic mailing list: a single email address that automatically forwards every message it receives to all of the list's subscribers. Instead of remembering fifty addresses, you write to one — say, `members@yourclub.org` — and everyone gets the message. Replies can flow back through the same address, turning email into a group discussion.
 
 The word has become a generic term for any email discussion list, but it started as the name of a specific piece of software — and strictly speaking, it still is one.
+
+<figure class="my-4 text-center">
+  <img src="/assets/images/how-a-listserv-works.jpg" alt="Diagram of how a listserv works: one list address distributes each message to every subscriber" class="img-fluid rounded" width="1376" height="768" loading="lazy">
+</figure>
 
 ## Listserv Meaning and Origin
 

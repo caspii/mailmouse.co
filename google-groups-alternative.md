@@ -5,6 +5,7 @@ description: "Looking for a Google Groups alternative? MailMouse is a simple gro
 hero_title: "The Simple Google Groups Alternative"
 hero_subtitle: "Group email without Google accounts, ads, or admin headaches"
 hero_description: "MailMouse gives your team, school, or community one list address that reaches everyone, on any email provider. Create a list, add members, start emailing — that's it."
+image: /assets/images/switch-google-groups.jpg
 ---
 
 ## Why People Look for a Google Groups Alternative
@@ -19,6 +20,10 @@ Google Groups is free and has been around for over two decades — and it shows.
 - **There's no support.** When something breaks, there's no one to ask — just community forums.
 
 MailMouse is built to fix exactly these problems: simple group email that works with any email address, managed from one clean dashboard, hosted in the EU.
+
+<figure class="my-4 text-center">
+  <img src="/assets/images/switch-google-groups.jpg" alt="Illustration of switching from a tangled web of group email to one tidy mailing list" class="img-fluid rounded" width="1584" height="672" loading="lazy">
+</figure>
 
 ## MailMouse vs. Google Groups
 
