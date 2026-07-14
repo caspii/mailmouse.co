@@ -54,3 +54,5 @@ node_modules/
 
 # Local development
 .ruby-version
+# Playwright MCP artifacts
+.playwright-mcp/
