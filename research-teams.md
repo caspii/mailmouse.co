@@ -1,6 +1,7 @@
 ---
 layout: usecase
-title: Research Team Communications - MailMouse
+title: Research Team Communications
+description: "Persistent group email for academic and professional research teams. Collaborate across institutions with one simple mailing list address."
 hero_title: "Collaborate Across Institutions"
 hero_subtitle: "Perfect for academic and professional research teams"
 hero_description: "Academic and professional teams across universities can collaborate via persistent group email. Share findings, coordinate meetings, and maintain project continuity."

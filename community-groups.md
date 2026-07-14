@@ -1,6 +1,7 @@
 ---
 layout: usecase
-title: Community Group Communications - MailMouse  
+title: Community Group Communications
+description: "Keep community members connected without exposing everyone's email in long CC lists. Simple, private group email for clubs, associations, and volunteer groups."  
 hero_title: "Keep Your Community Connected"
 hero_subtitle: "Perfect for clubs, associations, and volunteer groups"
 hero_description: "Keep community members connected without exposing everyone's email in long CC lists. Simple, private group communication."
