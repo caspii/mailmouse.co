@@ -1,6 +1,8 @@
 ---
 layout: page
-title:
+title: Get Early Access
+description: "Join the MailMouse waitlist to be first in line for simple, private group email — a modern alternative to Google Groups."
+hide_title: true
 ---
 
 <div class="row justify-content-center">

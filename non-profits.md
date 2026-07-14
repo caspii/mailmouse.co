@@ -1,6 +1,7 @@
 ---
 layout: usecase
-title: Non-Profit Communications - MailMouse
+title: Non-Profit Communications
+description: "Affordable group email for non-profits. Coordinate volunteers worldwide with one simple mailing list that works with any email provider."
 hero_title: "Coordinate Your Mission"
 hero_subtitle: "Affordable communication for non-profit organizations"
 hero_description: "Coordinate volunteers worldwide with an affordable, easy-to-manage solution. Works with any email provider, perfect for organizations with tight budgets."

@@ -1,6 +1,7 @@
 ---
 layout: usecase
-title: Company Team Communications - MailMouse
+title: Company Team Communications
+description: "Create team mailing lists like all@yourcompany.com in minutes. Simple group email for startups and small businesses — no IT setup required."
 hero_title: "Streamline Your Team Communications"
 hero_subtitle: "Perfect for startups and small businesses"
 hero_description: "Create lists like all@startup.com or dev-team@startup.com for seamless internal communication. No complex IT setup required."

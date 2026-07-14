@@ -1,6 +1,7 @@
 ---
 layout: usecase
-title: Schools & Education Communications - MailMouse
+title: Schools & Education Communications
+description: "GDPR-compliant group email for schools. Private mailing lists for classroom updates and parent communication, hosted in the EU."
 hero_title: "Secure School Communications"
 hero_subtitle: "GDPR-compliant messaging for educational institutions"
 hero_description: "Create secure, private channels for classroom communication. Teachers can send updates to parents with confidence in data protection."

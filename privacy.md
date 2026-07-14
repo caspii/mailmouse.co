@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Privacy Policy
+description: "How MailMouse collects, uses, and protects your personal information."
 ---
-
-## Privacy Policy
 
 At MailMouse, we take your privacy seriously. This privacy policy explains how we collect, use, and protect your personal information.
 
