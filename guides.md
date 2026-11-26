@@ -37,6 +37,26 @@ description: "Practical guides to group email — create email groups in Gmail a
             </div>
         </div>
     </div>
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+                <i class="fas fa-sitemap text-secondary mb-3" style="font-size: 2rem;"></i>
+                <h2 class="card-title h4">Email Distribution Lists</h2>
+                <p class="card-text text-muted">What a distribution list is, how it differs from a contact group or mailing list, and how to set one up anywhere.</p>
+                <a href="/email-distribution-list/" class="btn btn-outline-secondary">Read the guide <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+                <i class="fas fa-inbox text-secondary mb-3" style="font-size: 2rem;"></i>
+                <h2 class="card-title h4">Why Group Emails Go to Spam</h2>
+                <p class="card-text text-muted">SPF, DKIM and DMARC in plain English — and what list owners and members can do to keep messages in the inbox.</p>
+                <a href="/why-group-emails-go-to-spam/" class="btn btn-outline-secondary">Read the guide <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <p class="mt-4 text-muted">Thinking about switching tools? Start with our <a href="/google-groups-alternative/">Google Groups alternative</a> comparison.</p>
